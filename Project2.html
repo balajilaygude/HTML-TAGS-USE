@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+</head>
+<body>
+    <section>
+        <fieldset>
+            <legend><h1>Purchases</h1></legend>
+            <label for="productName">Product Name :</label><br>
+            <select  id="productName">
+                <option value="coldDrinks" selected>Cold Drinks</option>
+                <option value="Cake">Cake</option>
+                <option value="Sandwich">Sandwich</option>
+                <option value="Pizza">Pizza</option>
+            </select><br><br>
+            <label for="quanity">Quantity</label><br>
+            <input type="text" id="quanity" >
+        </fieldset>
+    </section>
+    <section>
+        <fieldset>
+            <legend><h1>Presonal Details </h1></legend>
+            <label for="fname">First Name :</label><br>
+            <input type="text" id="fname"><br><br>
+            <label for="lname">Last Name :</label><br>
+            <input type="text" id="lname"><br><br>
+        </fieldset>
+    </section>
+    <section>
+        <fieldset>
+            <legend><h1>Credit Card Details </h1></legend>
+            <label for="card">Credit Card Type:</label><br><br>
+            <input type="radio" name="cardType" id="card">Visa<br>
+            <input type="radio" name="cardType" id="card">MasterCard<br><br>
+            <label for="cardNumber">Cedit Card Number</label><br>
+            <input type="text" id="cardNumber"><br><br>            
+            <label for="expiryDate">Expiry Date</label><br>
+            <input type="date" id="expiryDate"><br><br>            
+        </fieldset>
+    </section>
+    <section>
+        <fieldset>
+            <legend><h1>Billing Informantion</h1></legend>
+            <label for="postalAdd">Postal Address :</label><br>
+            <textarea id="postalAdd" cols="100" rows="5"></textarea><br>
+            <label for="homeAdd">Home Address :</label>
+            <input type="checkbox" id="sameAdd">Same as Above <br>
+            <textarea  id="homeAdd" cols="100" rows="5"></textarea>
+        </fieldset>
+    </section>
+    <button>Place My Order</button>
+</body>
+</html>
